@@ -1,0 +1,398 @@
+body {
+  background: rgb(8, 8, 8);
+
+}
+
+.btn a,
+.btn h3 {
+  text-decoration: none;
+}
+
+.navbar {
+  border-bottom: #0c23f1 3px solid;
+  opacity: 0.8;
+
+}
+
+#home-section {
+  background: url("adeveloper.jpg") no-repeat;
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#home-section .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 500px;
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
+
+#home-section .card-form {
+  opacity: 0.8;
+}
+
+#home-section .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+#explore-section .fa,
+#share-section .fa {
+  color: #fff;
+  background: rgba(58, 56, 56, 0.137);
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+
+#create-section .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+#explore-head-section {
+  background-color: black;
+}
+
+#recent {
+  border-bottom-left-radius: 30%;
+  border-top-right-radius: 30%;
+
+}
+
+.fade {
+  opacity: 0.5;
+}
+
+.fade:hover {
+  opacity: 1;
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.circle:hover {
+  border-radius: 50%;
+}
+
+
+
+
+.data-container {
+  background: #ffebee;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* colorful prggress bar */
+
+/*  */
+
+.progress {
+  height: 30px;
+  background: #eee;
+  border-radius: 20px;
+  overflow: visible;
+  line-height: 15px;
+  margin: 10px 0 10px 0;
+}
+
+.progress .progress-bar {
+  border-radius: 20px;
+  position: relative;
+  animation: animate-positive 2s;
+  overflow: unset;
+}
+
+.progress .progress-value {
+  position: absolute;
+  top: -19px;
+  right: 16px;
+  font-size: 13px;
+  color: #fff;
+  padding: 3px 7px;
+  background: #191919;
+  border: 1px solid #000;
+}
+
+.progress .progress-value:after {
+  content: "";
+  border-top: 10px solid #191919;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  bottom: -6px;
+  left: 25%;
+}
+
+@-webkit-keyframes animate-positive {
+  0% {
+    width: 0%;
+  }
+}
+
+@keyframes animate-positive {
+  0% {
+    width: 0%;
+  }
+}
+
+/* progress 2 */
+
+.prog {
+  height: 40px;
+  background: #e1e1e1;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.prog .prog-bar {
+  animation: animate-positive 2s;
+}
+
+.prog .prog-value {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  background: #fff;
+  font-size: 14px;
+  color: #a2a6a9;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.prog .progbar-title {
+  position: absolute;
+  bottom: 9px;
+  left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+@-webkit-keyframes animate-positive {
+  0% {
+    width: 0%;
+  }
+}
+
+@keyframes animate-positive {
+  0% {
+    width: 0%;
+  }
+}
+
+/* create */
+
+.card {
+  padding: 10px 0px 10px;
+  background-color: #0f0e0e;
+  min-height: 400px;
+  max-height: 500px;
+  border-radius: 8px;
+  box-shadow: 0px 8px 20px #0000007a;
+}
+
+.card-body {
+  background-image: url('dental.JPG');
+  padding: 0px 15px;
+  color: white;
+}
+
+.card-body1 {
+  background-image: url('bank.JPG');
+}
+
+.card-body2 {
+  background-image: url('hotel.JPG');
+}
+
+.card-body3 {
+  background-image: url('cyber2.JPG');
+}
+
+.panel-default {
+  border: none;
+}
+
+.panel-group {
+  position: absolute;
+  bottom: -1px;
+  margin-bottom: 0px;
+  width: 100%;
+  /* padding-right: 30px; */
+}
+
+.panel-group .panel-heading+.panel-collapse>.panel-body,
+.panel-group .panel-heading+.panel-collapse>.list-group {
+  border: none;
+}
+
+.panel-group .panel {
+  border-radius: 0px 0px 8px 8px;
+  background-color: #e6e6e6;
+}
+
+.panel-body {
+  min-height: 250px;
+  overflow: auto;
+  border-radius: 0px 0px 8px 8px;
+  padding: 0px 15px 10px;
+}
+
+.panel-default>.panel-heading {
+  background-color: transparent;
+}
+
+.panel-heading {
+  text-align: center;
+  padding: 0px;
+  height: 35px;
+  border: none;
+}
+
+.panel-button {
+  padding: 20px;
+  background: #999999;
+  border-radius: 100%;
+  position: relative;
+  top: -13px;
+  z-index: 9999;
+}
+
+.panel-button .plus-minus:before {
+  content: "\f067";
+  font-family: "FontAwesome";
+}
+
+.panel-button[aria-expanded="true"] .plus-minus:before {
+  content: "\f068";
+  font-family: "FontAwesome";
+}
+
+
+
+a.panel-button:hover,
+a.panel-button:focus {
+  text-decoration: none;
+}
+
+a.panel-button {
+  font-size: 18px;
+  color: #333333;
+  box-shadow: 0px 3px 7px #0000004a;
+}
+
+.card-section {
+  height: 60vh;
+  display: table;
+  width: 100%;
+  background-color: rgb(7, 31, 248);
+  overflow: hidden;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+}
+
+.card-section>.inner {
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+@media (max-width: 991px) {
+  .card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    min-height: 300px;
+  }
+
+  .panel-body {
+    max-height: 200px;
+    font-size: 15px;
+    padding: 0px 5px;
+  }
+}
+
+
+
+.button-1 {
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+/* image gallery */
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #03020efd;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+footer#main-footer {
+  background-color: black;
+}
+
+#main-footer {
+  background-color: black;
+}
